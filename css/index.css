@@ -502,6 +502,11 @@ main {
   background-color: var(--primary-accent);
 }
 
+.virtual-events-section .col-left {
+  height: 446px;
+  padding: 0 var(--spacing-xl) 0 0;
+}
+
 .swipe-sessions-card {
   width: 540px;
   height: 446px;
@@ -545,4 +550,25 @@ main {
 
 .virtual-events-section .avatars img {
   width: 80px;
+}
+.virtual-events-section .avatars img:nth-of-type(2) {
+  position: absolute;
+  left: 55px;
+}
+
+.virtual-events-section .card-bottom {
+  width: 100%;
+  height: 50%;
+  box-sizing: border-box;
+  padding: var(--spacing-xl);
+}
+
+.virtual-events-section .card-bottom .subtitle {
+  margin: var(--spacing-lg) 0 0 0;
+}
+
+.virtual-events-section .card-bottom .secondary-text {
+  color: var(--text-dark);
+  font-weight: 700;
+  width: 50%;
 }
