@@ -572,3 +572,9 @@ main {
   font-weight: 700;
   width: 50%;
 }
+
+/* GETTING STARTED SECTION */
+.getting-started-section {
+  display: flex;
+  justify-content: center;
+}
