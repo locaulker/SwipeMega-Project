@@ -605,4 +605,5 @@ main {
 
 .getting-started-section .col-right .card .secondary-button {
   color: var(--purple-2);
+  padding-left: 0;
 }
